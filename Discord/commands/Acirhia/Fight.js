@@ -1,5 +1,9 @@
-module.exports.run = async () => {
+const Discord = require('discord.js');
+const character = require('../utils/test').character;
+const enemies = require('../utils/test').enemies;
 
+module.exports.run = async (PREFIX, message, args, server, bot, options, userstate) => {
+    
 };
 
 module.exports.config = {
